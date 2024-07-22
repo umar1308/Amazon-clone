@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+header{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 50px;
+}
+main{
+    display: flex;
+    
+}
+.logo{
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.add{
+    color:white;
+    margin-left: 150px;
+    margin-top: -35px;
+}
+.add_1{
+    font-size: 10px;
+}
+.add_2{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.search{
+    display: flex;
+    padding: 0;
+}
+.search button{
+    width: 40px;
+    border: none;
+    background-color: grey;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: -45px;
+    margin-left: 300px; 
+}
+.search input{
+    width: 400px;
+    height: 35px;
+    margin-top: -45px;
+    margin-left: 0px;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
+}
+.search .search_button{
+    background-color: orange;
+    margin-left: -10px;
+}
+.lang{
+    display: flex;
+    color: white;
+    font-weight: bold;
+  
+}
+.lang img{
+    margin-top: -30px;
+    margin-left: 800px; ;
+}
+.lang p{
+    margin-top: -40px;
+}
+.acc{
+    color:white;
+    margin-left: 900px;
+    margin-top: -45px;
+}
+.acc_1{
+    font-size: 10px;
+}
+.acc_2{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.ret{
+    color:white;
+    margin-left: 1050px;
+    margin-top: -45px;
+}
+.ret_1{
+    font-size: 10px;
+}
+.ret_2{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.cart img{
+    margin-top: -90px;
+    margin-left: 1150px;
+}
+.cart p{
+    color: white;
+    font-weight: bold;
+    margin-top: -65px;
+    margin-left: 1200px;
+}
+.menu{
+    display: flex;
+    background-color:hsl(219, 100%, 6%);
+    background-position: center;
+    height: 35px;
+  
+
+}
+.menu ul{
+    list-style-type: none;
+    
+
+  
+}
+.menu ul li{
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    
+}
+.menu ul li:hover{
+    border:1px solid white
+}
+.ads-1{
+    display: flex;
+    padding: 10px;
+}
+.ads-1 .ads-makeup{
+    background-color: white;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+.ads-1 .ads-makeup a{
+    text-decoration: none;
+}
+.ads-1 .ads-makeup h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+.ads-2{
+    display: flex;
+    padding: 10px;
+}
+.ads-2 .ads-makeup1{
+    background-color: white;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: -50px;
+}
+.ads-2 .ads-makeup1 a{
+    text-decoration: none;
+}
+.ads-2 .ads-makeup1 h3{
+    font-size: 21px;
+    font-weight: bold;
+}
+.signin{
+    background-color: white;
+    text-align: center;
+}
+.signin button{
+    width: 250px;
+    border:1px solid black;
+    text-decoration:double;
+    border-radius: 5px;
+    background-color: gold;
+}
+.signin p{
+  
+    font-size: 12px;
+}
+footer button{
+    width:100%;
+    height: 50px;
+    border: none;
+    margin-top: -50px;
+    background-color:hsl(219, 100%, 6%) ;
+}
+footer button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.links{
+    background-color: hsl(219, 95%, 9%);
+    height: 300px;
+    padding: 100px;
+    list-style-type: none;
+    
+
+}
+.link-1 ul{
+    list-style-type: none;
+    color: white;
+}
+.link-2 ul{
+    margin-top: -138px;
+    margin-left: 250px;
+    list-style-type: none;
+    color: white;
+}
+.link-3 ul{
+    margin-top: -115px;
+    margin-left: 500px;
+    list-style-type: none;
+    color: white;
+}
+.link-4 ul{
+    margin-top: -135px;
+    margin-left: 800px;
+    list-style-type: none;
+    color: white;
+}
